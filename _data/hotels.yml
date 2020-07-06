@@ -1,0 +1,62 @@
+- id: "0"
+  title: "Marina Nagy"
+  function: "Hotelleitung"
+  location: Radisson Blu Plaza Hotel Ljubljana
+
+  tips:
+
+    items:
+
+      - id: 1
+        question: Welche Hygienemaßnahmen haben Sie für die Gäste eingeführt
+        answer: "Alle unsere Zimmer stehen nach Abreise der Gäste 48 Stunden lang unter Quarantäne. Wir desinfizieren die Oberflächen mehrmals täglich - in den Zimmern und in den Gemeinschaftsbereichen. Zusätzliches Personal in unserem Restaurant hilft uns, mögliche Ausbreitungen zu vermeiden. Generell sind wir bei allen Kontakten zu den Gästen sehr achtsam. Unser Personal trägt rund um die Uhr Gesichtsmasken und hat besondere Schulungen zu Hygieneregeln absolviert. "
+
+      - id: 2
+        question: Was macht Ihr Hotel so besonders
+        answer: "Die Lage unseres Hotels ist einzigartig, da es das einzige Hotel in der größten Einkaufszone von Ljubljana ist. Trotzdem haben es die Gäste nicht weit zu den historischen Sehenswürdigkeiten. So sind wir die perfekte Kombination und gleichzeitig das modernste 4*-Superior-Hotel in Ljubljana."
+
+
+
+################################################################################
+
+
+- id: "1"
+  title: Marko Maze
+  function: "Verkaufsreferent für den deutschsprachigen Markt"
+  location: Rimske Terme Resort
+
+  tips:
+
+    items:
+
+      - id: 1
+        question: Welche Hygienemaßnahmen haben Sie für die Gäste eingeführt
+        answer: "Wir richten uns nach allen Hygienemaßnahmen, die die Regierung Sloweniens vorgibt. Darunter ist der Sicherheitsabstand von 1,5 bis 2 Metern (im Restaurant, am Pool etc.) und das Tragen einer Gesichtsmaske in geschlossenen Räumen (wenn erforderlich). Wir ermutigen unsere Gäste sich regelmäßig und gründlich die Hände zu waschen und verwenden Desinfektionsmittel."
+
+      - id: 2
+        question: Was macht Ihr Hotel so besonders
+        answer: "Unser Hotel liegt mitten in der Natur, weit weg vom Trubel der Städte. Des Weiteren sind wir für unsere einzigartigen Swimmingpools im römischen Stil bekannt."
+
+
+################################################################################
+
+
+- id: "2"
+  title: Natasa Borojevic
+  function: "Vertrieb"
+  location: Bled Rose Hotel
+
+  tips:
+
+    items:
+
+      - id: 1
+        question: Welche Hygienemaßnahmen haben Sie für die Gäste eingeführt
+        answer: "Um die Sicherheit unserer Gäste zu gewährleisten, haben wir viele detaillierte Vorbeugungen getroffen. Alle Räume werden während des Aufenthaltes und nach Abreise sorgfältig gereinigt und desinfiziert. Wir unterteilen alle Räume nach verschiedenen Zonen, die wir unterschiedlich reinigen. Dabei setzen wir giftfreie Sprays und Dampfreiniger ein. Alle öffentlichen Bereiche werden stets desinfiziert (auch Türgriffe, Handläufe und Aufzugstasten), Belüftung und Klimaanlage werden überwacht. Zudem lassen wir unsere Mitarbeiter regelmäßig untersuchen und messen täglich ihre Temperatur. Alle tragen Gesichtsmasken und sind mit Handschuhen, Schuhüberzügen und Desinfektionstüchern ausgestattet. "
+
+      - id: 2
+        question: Was macht Ihr Hotel so besonders
+        answer: "Die Lage im Zentrum von Bled, am Bleder See, mit Blick auf die wunderschönen Berge ist einmalig. Die Einrichtung ist luxuriös und komfortabel mit hellen und geräumigen Zimmern. Weitere Pluspunkte sind das moderne Spa und die ausgezeichnete Küche. <br> Bled selbst hat eine traditionsreiche Vergangenheit und ist dank seiner Natur zu einer der sehenswertesten Attraktionen der Welt geworden. Natürlich ist die Gegend vor allem für Aktivurlaub bestens geeignet."
+
+
+################################################################################

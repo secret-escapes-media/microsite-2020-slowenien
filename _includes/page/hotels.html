@@ -1,0 +1,64 @@
+
+<div id="five"  class="js-nav-section">
+  <div class="bv-parallax" style="background-image: url('{{site.img}}/content/hotels/hero.jpg'); {{section.bg-pos}}">
+  <div class="space--xxl"></div>
+    <div class="container text--white">
+      <div class="space--xxxl"></div>
+        <div class="row row--justify row--xl-4-4-4 row--gutters ">
+          <div class="col--xl-7 boxpad--xl text--xxl text--normal">
+          <div class="title title--xl text--serif text--bold bv-headline-divider">Sicher reisen</div>
+          <div class="space--sm"></div>
+          <h3 class="title title--sm ">Lokale Hoteliers kommen zu Wort</h3>
+          <div class="space--sm"></div>
+          <p>Egal, wie sicher ein Reiseziel klingen mag, wir haben Verständnis dafür, wenn Sie in der aktuellen Situation Bedenken haben mögen. Deshalb haben wir uns mit mehreren slowenischen Hotels in Verbindung gesetzt und herausgefunden, dass sie keine Kosten und Mühen scheuen, um Ihren Aufenthalt so sicher wie möglich zu gestalten. Lesen Sie selbst.</p>
+          <div class="space--xxl"></div>
+        </div>
+      </div>
+    </div>
+    <div class="space--xxl"></div>
+        <div style="width:100%; display: flex; justify-content: flex-end;">
+    <div class="bv-copyright js-image-attribution">
+     <span>© Foto: Andrej Tarfila | www.slovenia.info</span>
+   </div>
+      </div>
+  </div>
+</div>
+
+    <div class="space--xxl"></div>
+    <div class="container bg--white">
+{% for section in site.data.hotels %}
+
+  <div class="row row--3-3-3-3 row--gutters ">
+    <div class="col--xl-3 col--sm-10 col--top bv-img-insider boxpad--lg">
+      <div class="bg-img bg-img--1-1 bv-img-circle " style="background-image: url('{{site.img}}/content/hotels/hotel{{forloop.index}}.jpg'); " ></div>
+    </div>
+    <div class="col col--xl-9 col--sm-12 bv-mob-center boxpad--lg">
+      <div class="space--md"></div>
+      <h3 class="title title--md ">{{section.title}}</h3>
+        <div class="space--xxs"></div>
+      <div class="text text--grey text--xxxl text--italic text--serif">{{section.function}}</div>
+        <div class="space--sm"></div>
+      <div class="text text--xxxl text--bolder">{{section.location}}</div>
+      <div class="space--md"></div>
+
+      <div class="bv-content text text--xxl text--left" >
+
+        {% for tips in section.tips.items %}
+          <h3 class=" text text--xl text--bolder">{{tips.question}}?</h3>
+          <div class=" text text--xl text--justify ">{{tips.answer}}</div>
+          <div class="space--md"></div>
+
+        {% endfor %}
+
+
+
+      </div>
+      <!--
+      <a class="btn btn--orange bv-collapsible"></a>-->
+    </div>
+  </div>
+  <div class="space--md"></div><div class="space--sm"></div>
+{% endfor %}
+</div>
+
+<div class="bg--light space--xl"></div>

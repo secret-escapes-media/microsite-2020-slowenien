@@ -1,0 +1,155 @@
+// general styles for the project that wouldn't be a reuseable component
+
+// general styles for the project that wouldn't be a reuseable component
+
+
+/* ==========================================================================
+   Dividers & Alignment
+   ========================================================================== */
+
+
+
+  .bv-headline-divider::after {
+    content: ('–––');
+    display: block;
+    color: $white;
+    font-size: $s5;
+    letter-spacing: -4px;
+    margin: -3px 0 -2px 2px;
+  }
+
+   .bv-lineheight{
+    line-height: 1.2em;
+   }
+
+   .bv-mob-left {
+     text-align: center;
+   }
+
+   @media only screen and (max-width: 768px) {
+
+     .bv-mob-left {
+     text-align: left;
+     }
+   }
+
+   .bv-mob-center {
+      text-align: left;
+    }
+
+    @media only screen and (max-width: 799px) {
+
+      .bv-mob-center {
+      text-align: center;
+      margin-left: 0;
+      }
+    }
+
+/* ==========================================================================
+   Parallax & DRAWINGS
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+
+  }
+}
+
+.bv-copyright {
+  //position: static;
+  background-color: rgba($white,.66);
+  max-width: 90%;
+  padding: $s-4 $s-2;
+  font-size: $s-1;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: right;
+  color: rgba($grey-darkest,.8);
+  border-top-left-radius: 3px;
+  //right: 0;
+  //bottom: 0;
+  //display: inline-block;
+  /*
+  */
+
+}
+
+
+/* ==========================================================================
+ Collapsible
+========================================================================== */
+
+
+.bv-collapsible {
+  padding-top: 20px;
+  cursor: pointer;
+
+}
+
+.bv-collapsible:after {
+  content: ' ansehen ';
+}
+
+.bv-active:after {
+  content: ' schliessen ';
+}
+
+.bv-content {
+
+//  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+
+
+/* ==========================================================================
+Insidertipps
+========================================================================== */
+
+.bv-img-insider{
+  width: 75%;
+  max-width: $lg;
+
+  @include bp($xl) {
+    width: 25%;
+    max-width: none;
+  }
+}
+
+.bv-img-circle {
+  border-radius: 500px;
+  border: 4px $white solid;
+}
+
+
+/*************** offer tag for included tag *******************/
+.flight-tag {
+  position: absolute;
+  top: $s-2;
+  left: $s-2;
+  display: block;
+  //width: 50%;
+  @include bp($sm){
+    top: $s0;
+    left: $s0;
+    height: 35px;
+    width: auto;
+  }
+}

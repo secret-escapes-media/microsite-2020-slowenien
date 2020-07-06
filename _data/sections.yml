@@ -1,0 +1,157 @@
+- id: one
+  title: Outdoor
+  nav-title: One
+  description: "Grün und sicher: mit den Alpen, dem Mittel&shy;meer und dem Karst hat Slowenien mehrere eindrucksvolle Naturgebiete. Etwa 60% der Landesfläche sind von Wäldern bedeckt, Natur&shy;schutz&shy;gebiete und Urwälder sind nie weit weg. Hier können Sie Ihrer Entdecker&shy;seite freien Lauf lassen: in Flüssen schwimmen, Berge erklimmen oder sich in die Lüfte schwingen."
+  link: "#section-link"
+  image-credit: ""
+
+  pois:
+    items:
+
+      - id: one-first-poi
+        title: Durch Wiesen und Wälder
+        description: "Los geht es im Flachland, wo Wiesen und Wälder rufen. In der Kocevsko-Region treffen wir auf den Buchenurwald Krokar, der von der UNESCO geschützt ist - vom Borowec-Weg können Sie einen Blick auf den unbetret&shy;baren Urwald erhaschen. Zugänglicher ist die Bela Krajina, das Land der weißen Birken im äußersten Süden. Verlockend: der Fluss Kolpa, einer der saubersten Flüsse Sloweniens, aber auch die Gast&shy;freund&shy;schaft der Belo&shy;krajiner, die Sie mit Wein und Brot begrüßen. Nicht zu verschmähen sind schließlich die Burgen und Schlösser, die über Posavje verstreut sind - wenn Sie schon einmal da sind, können Sie zugleich das Bergland von Posavje erkunden."
+        link: "#poi-link"
+        image-credit: "Jost Gantar |"
+
+      - id: one-second-poi
+        title: "Von Gipfel zu Gipfel"
+        description: "Es geht weiter hinauf. Der Karst ist eine Kalkstein-Landschaft an der Grenze zu Italien, ein Hügelland, wo sich aussichts&shy;reiche Gipfel mit tief einge&shy;schnittenen Höhlen abwechseln. Von den Hoch&shy;ebenen kommen wir nach Pohorje bei Maribor, ein bewaldetes Mittel&shy;gebirge, das zahlreichen Tierarten Schutz bietet. Es zieht Sie weiter in die Höhe? Kein Problem: die Steiner Alpen und die schroffen Julischen Alpen sind von Dutzenden Fern&shy;wander&shy;wegen erschlossen und bieten auf über 2.000 Metern erhabene Momente. Die meisten dieser Giganten verbergen sich im Nationalpark Triglav, der zu den ältesten Parks Europas zählt - und im Sommer angenehm kühl ist."
+        link: "#poi-link"
+        image-credit: "Jost Gantar |"
+
+      - id: one-third-poi
+        title: Fluss, See oder Meer?
+        description: "Zeit für eine Erfrischung. Im wasser&shy;reichen Slowenien ist das Abtauchen dank regelmäßiger Messungen der Wasser&shy;qualität in 30 Bade&shy;gebieten und 18 Naturbädern unbedenklich. Neben den adriatischen Stränden in Portorož oder Izola ist das kleine Land gesprenkelt vor Badeseen, darunter bekannte Größen wie Bled und Bohinj und kleine Smaragde wie der Zelenci-See. In Pohorje sollte der kristall&shy;klare Gletschersee Schwarze See (Crno jezero) auf Ihrer Liste stehen. Rasanter wird die Begegnung mit Wasser in den Flüssen Sloweniens. Auf den Strom&shy;schnellen des Soča gehen Sie in Duell mit dem Wildwasser, etwas ruhiger ist die Save."
+        link: "#poi-link"
+        image-credit: "Matjaz Jug |"
+
+      - id: one-fourth-poi
+        title: In den Lüften
+        description: "Machen Sie sich schließlich das Element der Luft zu eigen. Zum Beispiel in einem der zahl&shy;reichen Erlebnis- und Abenteuer&shy;parks, wo Sie auf Hochseilen zwischen Baum&shy;kronen oder an Felswänden vorbei balancieren und Gleich&shy;gewichts&shy;sinn beweisen. Nicht genug Adrenalin? Dann werden Sloweniens Ziplines (Seilrutschen) Ihren Puls in Wallung bringen - wie wäre es mit einer Abfahrt über dem Soča-Tal auf 1300 Metern Höhe? Und wie majes&shy;tätisch wirken die Alpen&shy;gipfel, wenn Sie mit einem Gleit&shy;schirm durch luftige Höhen segeln? Wenn Sie einen Kurs in Paragliding absolvieren wollten, ist Slowenien der richtige Ort."
+        link: "#poi-link"
+        image-credit: "Iztok Medja |"
+
+
+
+################################################################################
+
+
+
+- id: two
+  title: Inspirierende Orte
+  nav-title: Two
+  description: "Es ist leicht, sich von Slowenien inspirieren zu lassen. Ob Hauptstadt Ljubljana, Küsten&shy;stadte oder Dörfchen im Gebirgs&shy;tälern - überall zeigt sich eine gelungene Synthese zwischen Natur und Kultur. Spüren Sie den Geist des Mittel&shy;alters, erfeuen Sie sich an venezianischer Architektur und finden Sie heraus, warum Slowenien zu den grünsten Ländern Europas gezählt wird."
+  link: "#section-link"
+  image-credit: "Andrej Tarfila |"
+
+  pois:
+    items:
+
+      - id: two-first-poi
+        title: Piran
+        description: "Sloweniens mediterrane Seite kommt in dieser reizenden Küsten&shy;stadt bestens zum Vorschein. Pirans Stadt&shy;bild ist vom Mittel&shy;alter geprägt, das zeigt sich in den Über&shy;resten der Ringmauer und den schmalen Gassen. Auch Venedigs architek&shy;tonische Einflüsse durchziehen Piran, vom Stadtpalast am Tartini-Platz zur Benečanka, dem rot&shy;farbenen venezianischen Häuschen. Die Geschichte der Stadt ist eng mit dem Salz&shy;abbau verbunden - diese Würze spüren Sie bei einer Führung durch die Salinen im Land&shy;schafts&shy;park Strunjan. Wenn Sie einmal dort sind, vergessen Sie nicht, einen Blick auf die imposanten Flysch-Klippen zu werfen."
+        link: "#poi-link"
+        image-credit: ""
+
+      - id: two-second-poi
+        title: Ljubljana
+        description: "Sloweniens Hauptstadt ist grün durch und durch. Atmen Sie am Burghügel oder an den Ufern der Ljubljanica durch oder betreiben Sie Photo&shy;synthese im größten Park Ljubljanas, dem Tivoli. Architekt Jože Plečniks Plan war es, die ‘geliebte’ Stadt nach dem Vorbild vom antiken Athen als Gesamt&shy;kunst&shy;werk zu gestalten - die Dreier&shy;brücke oder der zentrale Markt&shy;platz sind eindrucksvolle Beispiele seiner Baukunst. Auf demselben Markt erwerben Sie lokal angebautes Gemüse, nur eine der Bestrebungen Ljubljanas, im Bereich Nach&shy;haltig&shy;keit Zeichen zu setzen. Mehrere Aus&shy;zeichnungen, wie der Titel Grüne Hauptstadt Europas 2016 belegen, dass Ljubljana auf einem guten Weg ist."
+        link: "#poi-link"
+        image-credit: "Andrej Tarfila |"
+
+      - id: two-third-poi
+        title: Bled & Bohinj
+        description: "Das Wahrzeichen und einer der bekanntesten Orte Sloweniens ist der See von Bled. In seiner Mitte prangt eine pittoreske Insel und ist, umrahmt von Wäldern und den Julischen Alpen, zu Recht ein Instagram-würdiges Motiv. Ein Pletna-Boot bringt Sie über das smaragd&shy;farbene Wasser hinüber, wo Sie die Wunsch&shy;glocke der Kirche Mariä Himmel&shy;fahrt läuten können. Nachdem Sie die Umgebung mit Burg von Bled und Vila Bled besser kennen&shy;gelernt haben, bietet sich ein Sprung ins Bohinj-Tal an. Ein mindestens ebenso schöner See und ein dichtes Netz an Wanderwegen erwarten Sie dann im Triglav-Nationalpark."
+        link: "#poi-link"
+        image-credit: "Jost Gantar |"
+
+      - id: two-fourth-poi
+        title: Logartal
+        description: "Die Panoramastraße von Solčava verläuft mit Blick auf die Steiner und Sanntaler Alpen auf 37 Kilometern Länge und führt vom gleich&shy;namigen Dorf vorbei an Schluchten und Bergen, Bauern&shy;höfen und Aussichts&shy;punkten bis zum Tal Logarska dolina. Eines der atem&shy;beraubendsten Alpentäler Europas wird von Zwei&shy;tausendern eingerahmt. Genießen Sie frische Luft und unberührte Natur und versäumen Sie es nicht, am 90m hohen Wasserfall Rinka Halt zu machen, wo der Fluss Savinja mächtig in die Tiefe hinab stürzt - ein weiteres Naturerbe."
+        link: "#poi-link"
+        image-credit: "Tomo Jesenicnik |"
+
+
+
+################################################################################
+
+
+
+- id: three
+  title: Kulinarik & Lifestyle
+  nav-title: Three
+  description: "In Slowenien ist Genuss keine Nebensache, sondern Lebenseinstellung. Jede Region punktet mit den ihrigen Spezia&shy;litäten wie Fisch, Käse, Wein oder Gebäck; der Fokus liegt auf nach&shy;haltiger Produktion und Regiona&shy;lität. Die Entscheidung, harmonisch mit der Natur zu leben und sie voll auszukosten, ist der slowenische Weg."
+  link: "#section-link"
+  image-credit: "Matevz Kostanjsek |"
+
+  pois:
+    items:
+
+      - id: three-first-poi
+        title: Sterneküche
+        description: "Inzwischen erkennt der Michelin-Guide den Reichtum der slowenischen Küche an. Im Jahr 2020 wurden 6 Restaurants mit Sternen dekoriert, dazu regnete es Bib Gourmands für gutes Preis-Leistungs-Verhältnis. Einen Stopp wert (1 Michelin-Stern) ist das Atelje in Ljubljana, wo bei Tasting Menüs bis zu 12 Gänge auf den Tisch kommen, alle regional gesourced und saisonal abgestimmt. Einen Umweg wert (2 Michelin-Sterne) ist das Haus von Ana Roš, beste Chefköchin der Welt 2017. In ihrem Restaurant Franko bestimmt Liebe zum Detail und zu unerwarteten Aromen über das Menü in Gerichten mit getrockneten, eingelegten und fermentierten Zutaten."
+        link: "#poi-link"
+        image-credit: "Tomo Jesenicnik |"
+
+      - id: three-second-poi
+        title: Natürlicher Genuss
+        description: "Urtümlich und unverfälscht ist die Suche nach wilden Kräutern, Pilzen und Beeren. Im Frühjahr macht leuchtend gelber Löwen&shy;zahn von den Feldern Sloweniens seinen Weg zu den Märkten, neben wildem Knoblauch und wildem Spargel. Im Herbst sind es Trüffel und Pilze, die auf dem Speiseplan stehen - über 500 essbare Pilze gedeihen in den Wäldern und sind eine beliebte Zutat in vielen nationalen Gerichten. Bei allem Pflücken wird Etikette gewahrt, damit Pflanzen unversehrt bleiben und das natürliche Gleichgewicht nicht gestört wird. Spezialisten können behliflich sein, die richtigen Kräuter oder Pilze von giftigen zu unterscheiden."
+        link: "#poi-link"
+        image-credit: "Tomo Jesenicnik |"
+
+      - id: three-third-poi
+        title: Wein
+        description: "Slowenien als Weinproduzent? Ja - seit Jahr&shy;hunderten sind Weine so eng mit dem slowenischen Selbstverständnis verbunden, dass sogar die National&shy;hymne Zdravljica ein Toast ist. Drei Wein&shy;bau&shy;regionen bringen 52 Rebsorten zum Gedeihen: Podravje, Posavje und Primorska. Aufgrund des Klimas sind 70% der Weine weiß (Chardonnay, Weiß&shy;burgunder), auch Sektkelterei hat eine lange Tradition. Ljubljana hat viele gut sortierte Vinotheken, doch wirklich authentisch wird die Verkostung auf einer Reise durch die Wein&shy;straßen Sloweniens. Falls Sie unterwegs ein Glas zuviel hatten, stehen zum Nacht&shy;lager umfunk&shy;tionierte Weinberg&shy;häuschen bereit."
+        link: "#poi-link"
+        image-credit: "Edi Simcic |"
+
+      - id: three-fourth-poi
+        title: Glamping
+        description: "Während Sie von Weinberg zu Weinberg ziehen, sind Glamping-Unter&shy;künfte eine sehr gute Wahl. Der Unter&shy;kunfts&shy;trend verbindet Komfort und Natur&shy;erlebnis - und als grünes Land bietet Slowenien eine hohe Auswahl an edlen Zelten, Wald&shy;hütten und anderen Behausungen im Schoß der Natur. Aufwachen im Wald oder mit Blick auf den Bleder See, die süße Zeit im Chocolate Village auskosten, in wabenförmigen Chalets im Honigdorf hausen, auf Baumkronen übernachten, die Liste ließe sich noch lange fortführen."
+        link: "#poi-link"
+        image-credit: "Tomo Jesenicnik |"
+
+
+
+################################################################################
+
+
+
+- id: four
+  title: Wellbeing
+  nav-title: Four
+  description: "Wohlgefühl ist mehr als ein momentaner Zustand; es ist die Gewissheit am richtigen Ort zu sein und Gutes für sich selbst zu tun. Neben gewohnten und ungewöhnlichen Wellness-Anwendungen und Thermen ist es wieder die Natur, die in Slowenien einen entscheidenden Beitrag zu Ihrem Wohlbefinden leistet."
+  link: "#section-link"
+  image-credit: "Andrej Tarfila |"
+
+  pois:
+    items:
+
+      - id: four-first-poi
+        title: Grün & sicher
+        description: "Besonders jetzt ist Sloweniens hoher Anspruch an Gesundheits&shy;schutz ein Argument für den Besuch. So wurde Bohinj in die Top 20 der sichersten Reiseziele nach COVID-19 gewählt. Auch im Globalen Friedensindex schneidet Slowenien gut ab und gilt als eines der sichersten Länder weltweit. Als Global Green Destination ist Nach&shy;haltig&shy;keit ein Haupt&shy;augenmerk und mehr als 50 Destinationen sind unter dem Label Slovenia Green anerkannt. Darunter sind acht EDEN-Reiseziele - der Fluss Kolpa, das Soca-Tal oder die Altstadt von Koper."
+        link: "#poi-link"
+        image-credit: "Ales Zdesar |"
+
+      - id: four-second-poi
+        title: Thermen und Heilbäder
+        description: "Als Land gesunder Gewässer geizt Slowenien nicht an Mineral- und Thermalquellen, die in jedem Landesteil zu finden sind. Inmitten von Weinbergen lassen Sie sich von paraffinhaltigen Thermal&shy;wasser der Therme Lendava heilen oder profitieren von mehr als 600 Jahren Erfahrung der Therme Dobrna. Warm ums Herz kann es im schwarzen Theromineral&shy;wasser in Moravske Toplice werden, an der Adria nutzt das Talaso Strunjan Meeres&shy;schlamm, Algen und Salze für Wellness. Keine Therme, aber heilsam ist Rogaška Slatina, wo das magnesium&shy;reichste Mineralwasser der Welt entspringt. "
+        link: "#poi-link"
+        image-credit: "Dean Dubokovic |"
+
+      - id: four-third-poi
+        title: Das andere Spa-Erlebnis
+        description: "Verwöhnen Sie Ihren Körper auf ungewöhnliche Art. Behandlungen mit Bienen&shy;honig oder Bienengift regen die Durchblutung an, Bierwellness hat unter anderem eine antiseptische Wirkung. Das tausend Jahre alte Gletscher&shy;wasser in Gozd Martuljek ist zwar kein Jung&shy;brunnen, dafür sehr rein und reich an Minera&shy;stoffen - gut für Massagen und Hydro&shy;therapie. Auch Saunen in Slowenien können anders. Das besondere Salz aus Piran findet in Salz&shy;saunen an der Küste Verwendung. Einmalig ist sicher die Eissauna - gekühlter Stick&shy;stoff führt nach einem Aufent&shy;halt von einigen Minuten zur Ausschüttung von Endorphinen."
+        link: "#poi-link"
+        image-credit: "Jost Ganta |"
+
+      - id: four-fourth-poi
+        title: "Selfness: Eins mit der Natur"
+        description: "Einfach in der Natur abschalten: ohne Laptop und Handy&shy;empfang, mit Naturlauten statt WhatsApp-Eingangstönen. Das Soča-Tal ist besonders gut für eine Digital-Detox-Reise geeignet. In den Wäldern von Kocevje besinnen Sie sich auf sich selbst und lernen, ohne Technik zu überleben. Selfness ist das grund&shy;legende Konzept dazu, eine Besinnung auf sich selbst, die nach&shy;haltiger wirken sollte als Wellness. Ein Schritt Richtung Selfness könnte Yoga im Freien sein. Sonnengruß vor Alpen&shy;kulisse perfektionieren? Schon der Gedanke daran ist erholsam."
+        link: "#poi-link"
+        image-credit: "Istri Izola |"
+
+
+
+################################################################################

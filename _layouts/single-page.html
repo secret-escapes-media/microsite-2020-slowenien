@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+
+  <body>
+
+    {% include components/tracking.html %}
+
+    {% include page/header.html %}
+
+    {% include page/banner.html %}
+
+    <div class="vpad--xxl bg--light">
+      <div class="container">
+        <div class="width width--lg text--center text--xxl">
+          <p>Grünes Licht für Slowenien: das kleine Land zwischen Adria und Alpen ist eines der sichersten und nachhaltigsten Länder der Welt. Von uralten Wäldern und Vorzeigebergen führen wir Sie zu Weinfeldern und Mittelmeerküsten, zeigen Ihnen, wie der Slowene zu genießen weiß und verraten Ihnen, wie Sie am Besten abschalten können. </p>
+          {% if page.primary-cta %}
+            <div class="space--sm">
+              <a href="{{page.primary-cta.link}}" class="btn btn--lg btn--outline btn--outline-orange">{{page.primary-cta.label}}</a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="content-spacing section-spacing">
+
+      <!-- loops through section file for page content -->
+      {% for section in site.data.sections %}
+      <div id="{{section.id}}"  class="js-nav-section">
+        <div class="bv-parallax" style="background-image: url('{{site.img}}/content/{{section.id}}/hero.jpg'); ">
+        <div class="space--xxl"></div>
+          <div class="container text--white">
+            <div class="space--xxxl"></div>
+              <div class="row row--justify row--xl-4-4-4 row--gutters ">
+                <div class="col--xl-7 boxpad--xl text--xxl text--normal">
+                <div class="title title--xl text--serif text--bold bv-headline-divider">{{section.title}}</div>
+                <div class="space--sm "></div>
+                <p>{{section.description}}</p>
+                <div class="space--xxl"></div>
+              </div>
+            </div>
+          </div>
+          <div class="space--xxl"></div>
+              <div style="width:100%; display: flex; justify-content: flex-end;">
+          <div class="bv-copyright js-image-attribution">
+           <span>© Foto: {{section.image-credit}} www.slovenia.info</span>
+         </div>
+            </div>
+        </div>
+      </div>
+      <div class="bg--white" >
+        <div class="container vpad--lg">
+            <div class="row {{section.row}} row--lg-6-6 row--gutters " >
+              {% for poi in section.pois.items %}
+              <div class="col text--normal text text--xl text--justify">
+                <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{section.id}}/img{{forloop.index}}.jpg);">
+
+                  <div class="bg-img__attribution js-image-attribution">
+                   <span>© Foto: {{poi.image-credit}} www.slovenia.info</span>
+                 </div>
+
+                </div>
+                <div class="space--lg"></div>
+                <h5 class="title title--sm text--left">{{poi.title}}</h5>
+                <div class="space--xs"></div>
+                <div>{{poi.description}}</div>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="space--xxl"></div>
+        </div>
+      </div>
+      {% endfor %}
+
+
+      {% include page/hotels.html %}
+
+
+      <!-- Offers section -->
+      <div id="offers" class="js-nav-section bg--light">
+        <div class="space--xl"></div>
+        <div class="title title--xl text--center">Angebote</div>
+        <div class="space--xl"></div>
+        {% include offer/all-offers.html %}
+        <div class="space--xxxl"></div>
+        {% include page/promo-offers.html %}
+      </div>
+
+    </div>
+
+    {% include page/footer.html %}
+
+    {% include modal/sections.html %}
+
+  </body>
+
+</html>
